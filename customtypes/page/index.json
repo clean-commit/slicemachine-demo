@@ -26,13 +26,13 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "features": {
-              "type": "SharedSlice"
-            },
             "hero": {
               "type": "SharedSlice"
             },
-            "image_and_text": {
+            "perks": {
+              "type": "SharedSlice"
+            },
+            "testimonials": {
               "type": "SharedSlice"
             }
           }

@@ -15,7 +15,7 @@
               "blocks": 1
             }
           },
-          "tagline": {
+          "headline": {
             "config": {
               "patternType": "PARAGRAPH",
               "blocks": 1
@@ -68,6 +68,31 @@
           }
         }
       }
+    },
+    "Perks": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Testimonials": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
     }
   },
   "_cts": {
@@ -79,6 +104,7 @@
         }
       }
     },
-    "page-2": {}
+    "page-2": {},
+    "testimonials": {}
   }
 }

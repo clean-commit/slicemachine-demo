@@ -1,14 +1,23 @@
 {
-  "id": "0c41848e-67ac-498e-8a1e-556ed8606a6d",
-  "uid": "dolorum-quisquam-ut",
+  "id": "mock-doc-id",
+  "url": null,
   "type": "page",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Engage front-end metrics",
+        "text": "Fellow",
         "spans": []
       }
-    ]
+    ],
+    "slices": []
   }
 }
