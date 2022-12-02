@@ -1,5 +1,5 @@
 import React from 'react';
-import { PrismicRichText } from '@prismicio/react';
+import { PrismicRichText, PrismicText } from '@prismicio/react';
 import Container from '../../components/UI/Container';
 import Title from '../../components/UI/Title';
 import Text from '../../components/UI/Text';
@@ -32,13 +32,14 @@ const Testimonials = ({ slice }) => {
             {slice.items.map((item, i) => (
               <article
                 key={i}
-                className='mb-10 inline-flex flex-col gap-4 rounded-md bg-slate-900 p-6 leading-none '>
+                className='mb-10 inline-flex flex-col gap-4 rounded-md bg-zinc-900 bg-opacity-50 p-6 leading-none '>
                 <div className='flex  items-center gap-4'>
-                  <div className='h-12 w-12 rounded-full bg-slate-700'></div>
+                  <div className='h-12 w-12 rounded-full bg-slate-400'></div>
                   <div>
                     <div className='text-lg font-bold leading-tight'>
                       <Title Tag='h3' variant='sm' className='mt-2'>
-                        {item.name}
+                        <PrismicText field={item.name} />
+                        {/* {item.name} */}
                       </Title>
                     </div>
                   </div>

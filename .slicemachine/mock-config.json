@@ -91,7 +91,14 @@
             }
           }
         },
-        "items": {}
+        "items": {
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
       }
     }
   },

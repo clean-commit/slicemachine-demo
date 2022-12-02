@@ -288,10 +288,12 @@
               },
               "items": {
                 "name": {
-                  "type": "Text",
+                  "type": "StructuredText",
                   "config": {
                     "label": "Name",
-                    "placeholder": ""
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   }
                 },
                 "content": {
@@ -300,7 +302,7 @@
                     "label": "Content",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
                   }
                 }
               },
@@ -314,11 +316,17 @@
             "version": "sktwi1xtmkfgx8626",
             "items": [
               {
-                "name": "foot",
+                "name": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sint quis sunt anim sint. Consequat nulla aliqua excepteur in commodo nulla aliqua nostrud anim aliquip.",
+                    "spans": []
+                  }
+                ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Cillum ullamco Lorem aliquip nostrud eu voluptate ut aute et dolor irure quis ea non. Incididunt anim adipisicing cillum aliquip proident nisi.",
+                    "text": "Mollit officia voluptate ad. Ullamco et sit cillum magna officia cupidatat non consectetur id esse reprehenderit ullamco consectetur proident mollit. Eiusmod aliquip mollit mollit officia adipisicing velit ex cillum eiusmod id veniam tempor.",
                     "spans": []
                   }
                 ]
@@ -328,14 +336,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Drink",
+                  "text": "Baseball",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Ex cupidatat velit officia sunt veniam irure nulla veniam nostrud sit labore sit. Culpa do tempor in sit cupidatat adipisicing adipisicing laborum ipsum mollit labore tempor sit anim. Velit esse sunt quis.",
+                  "text": "Consequat fugiat laboris culpa officia commodo proident deserunt sint culpa fugiat sunt mollit magna veniam. Elit sunt commodo elit cillum in ipsum nostrud fugiat non laborum culpa ut ipsum amet.",
                   "spans": []
                 }
               ]
